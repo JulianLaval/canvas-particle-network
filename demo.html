@@ -8,13 +8,18 @@
 		</style>
 	</head>
 	<body>
-		<canvas id="node-canvas"></canvas>
-		<script type="text/javascript" src="NodeNetwork.js"></script>
+		<canvas id="particle-canvas"></canvas>
+		<script type="text/javascript" src="ParticleNetwork.js"></script>
 		<script type="text/javascript">
-			var canvasDiv = document.getElementById('node-canvas');
+			var canvasDiv = document.getElementById('particle-canvas');
 			canvasDiv.width = window.innerWidth;
 			canvasDiv.height = 500;
-			var nodeCanvas = new NodeNetwork(canvasDiv);
+			var options = {
+				particleColor: '#fff',
+				bgColor: '#1a252f',
+				interactive: false
+			};
+			var particleCanvas = new ParticleNetwork(canvasDiv, options);
 		</script>
 	</body>
 </html>
