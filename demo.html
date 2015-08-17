@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				margin:0;
+				padding:0;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="node-canvas"></canvas>
+		<script type="text/javascript" src="NodeNetwork.js"></script>
+		<script type="text/javascript">
+			var canvasDiv = document.getElementById('node-canvas');
+			canvasDiv.width = window.innerWidth;
+			canvasDiv.height = 500;
+			var nodeCanvas = new NodeNetwork(canvasDiv);
+		</script>
+	</body>
+</html>
