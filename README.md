@@ -4,7 +4,7 @@
 
 In this experiment, I set out to build a sexy, simple, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
 
-Fork the repo and open `demo.html` to give it a whirl!
+Fork the repo and open `demo.html` to give it a whirl, or check it out on [CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/)!
 
 ### Usage
 
