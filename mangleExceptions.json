@@ -1,0 +1,3 @@
+{
+  "props": ["options", "particleColor", "bgColor", "interactive"]
+}

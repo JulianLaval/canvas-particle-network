@@ -1,0 +1,25 @@
+{
+  "name": "canvas-particle-network",
+  "version": "1.0.0",
+  "description": "Simple animated particle network using Canvas and JavaScript",
+  "author": "Julian Laval <hello@julianlaval.com>",
+  "main": "ParticleNetwork.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulianLaval/canvas-particle-network.git"
+  },
+  "keywords": [
+    "canvas",
+    "particle",
+    "network",
+    "data visualisation"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-eslint": "~17.1.0",
+    "load-grunt-tasks": "~3.2.0"
+  },
+  "private": true,
+  "license": "MIT"
+}

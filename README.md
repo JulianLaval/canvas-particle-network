@@ -4,7 +4,7 @@
 
 In this experiment, I set out to build a sexy, simple, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
 
-Fork the repo and open `demo.html` to give it a whirl, or check it out on [CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/)!
+Fork the repo and open `demo.html` to give it a whirl, or check it out on [CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/); the minified version comes in at a cheeky 2KB!
 
 ### Usage
 
@@ -16,11 +16,23 @@ var particleCanvas = new ParticleNetwork(document.getElementById('particle-canva
 
 Additionally, you can specify a number of options.
 
-`particleColor` - color of individual particles | **default: #fff**
+---
+**particleColor**  
+Type: `string`  
+Default: `#fff`  
+Hex color of individual particles   
 
-`bgColor` - background color | **default: #1a252f**
+**bgColor**  
+Type: `string`  
+Default: `#1a252f`  
+Hex background color
 
-`interactive` - show an additional node on mousehover and add it to the graph on click | **default: true**
+**interactive**  
+Type: `boolean`  
+Default: `true`  
+Show an additional node on mousehover and add it to the graph on click
+
+--- 
 
 Simply append it to your arguments on creation.
 
@@ -36,7 +48,7 @@ var particleCanvas = new ParticleNetwork(document.getElementById('particle-canva
 ### To-do
 
 * Add a `density` option
-* Provide a compiled and minified version
+* Better responsiveness
 * Further optimisations & cross-browser stability improvements
 
 ### Acknowledgements
@@ -46,11 +58,17 @@ This experiment was inspired by the following resources:
 * "About the squad", Nick Ano - [https://dribbble.com/shots/2188571-About-the-squad](https://dribbble.com/shots/2188571-About-the-squad)
 * "Particle Network Animations in JS", Alex Wendland - [http://blog.alexwendland.com/2015/particle-network-js-animations/](http://blog.alexwendland.com/2015/particle-network-js-animations/)
 
+
+### Release History
+
+* **v1.0.0** | 2015-08-17 | Initial release
+* **v1.1.0** | 2015-08-18 | Added minified release
+
 ### License
 
 The MIT License (MIT)
 
-Copyright (c) [2015] [Julian Laval]
+Copyright (c) 2015 Julian Laval
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
