@@ -136,7 +136,7 @@
         "dot-location": [2, "property"],
         "dot-notation": [0, { "allowKeywords": true }],
         "eol-last": 2,
-        "eqeqeq": [1, "allow-null"],
+        "eqeqeq": [2, "allow-null"],
         "func-names": 0,
         "func-style": [2, "expression"],
         "generator-star-spacing": 0,
