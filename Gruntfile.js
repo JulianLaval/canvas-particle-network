@@ -6,9 +6,11 @@ module.exports = function(grunt) {
   grunt.initConfig({
     eslint: {
       options: {
-        configFile: '.eslintrc'
+        configFile: '.eslintrc',
+        format: (grunt.option('o') == undefined) ? 'stylish' : 'html',
+        outputFile: (grunt.option('o') === undefined) ? '' : 'report.html'
       },
-      target: ['ParticleNetwork.js']
+      target: ['ParticleNetwork.js', 'Gruntfile.js']
     },
     uglify: {
       options: {
@@ -23,5 +25,4 @@ module.exports = function(grunt) {
       }
     }
   });
-
 };
