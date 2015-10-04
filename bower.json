@@ -17,6 +17,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "Gruntfile.js"
+    "Gruntfile.js",
+    "*.json"
   ]
 }

@@ -16,6 +16,8 @@ Alternatively, fork the repo and open `demo.html` to give it a whirl; the minifi
 
 ## Usage
 
+The plugin is available as `canvas-particle-network` via Bower or NPM. Alternatively, you can simply clone this repository.
+
 For a barebones implementation, simply add a HTML `div` to your body. You may specify its dimensions via CSS/JavaScript without any issues, as well as specify multiple instances. Then, simply add the JavaScript file to the end of your `body` and create a `ParticleNetwork` instance using your canvas ID.
 
 ```html
@@ -101,6 +103,7 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
+* **v1.3.2** | 2015-10-04 | Added files to `bower.json` ignore
 * **v1.3.1** | 2015-10-04 | Bumped version due to NPM versioning conflict
 * **v1.3.0** | 2015-10-04 | Added NPM and Bower releases
 * **v1.2.1** | 2015-10-04 | Minor README fixes
