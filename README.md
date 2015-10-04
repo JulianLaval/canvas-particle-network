@@ -105,6 +105,7 @@ This experiment was inspired by the following resources:
 * **v1.1.0** | 2015-08-18 | Added minified release
 * **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
 * **v1.2.1** | 2015-10-04 | Minor README fixes
+* **v1.3.0** | 2015-10-04 | Added NPM and Bower releases
 
 ## License
 
