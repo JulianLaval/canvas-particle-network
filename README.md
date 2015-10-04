@@ -72,7 +72,7 @@ Velocity of the particles. Must be one of the following:
 
 #### options.density
 
-Type: `String`
+Type: `String`  
 Default: `medium`
 
 Density of the particles. Actual amount depends on the canvas size. Must be one of the following:
