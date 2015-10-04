@@ -10,11 +10,17 @@ Alternatively, fork the repo and open `demo.html` to give it a whirl; the minifi
 
 ## Usage
 
-For a barebones implementation, simply add the JavaScript file to the end of your `body` and create a `ParticleNetwork` instance using your canvas ID.
+For a barebones implementation, simply add a HTML `div` to your body. You may specify its dimensions via CSS/JavaScript without any issues, as well as specify multiple instances. Then, simply add the JavaScript file to the end of your `body` and create a `ParticleNetwork` instance using your canvas ID.
 
-```js
-var particleCanvas = new ParticleNetwork(document.getElementById('particle-canvas'));
-``` 
+```html
+<body>
+	<div id="particle-canvas"></div>
+	<script type="text/javascript" src="particle-network.min.js"></script>
+	<script type="text/javascript">
+		var particleCanvas = new ParticleNetwork(canvasDiv, options);
+	</script>
+</body>
+```
 
 Additionally, a number of options are supported (see below). Simply append any of these options to your arguments on creation.
 
@@ -92,6 +98,7 @@ This experiment was inspired by the following resources:
 * **v1.0.0** | 2015-08-17 | Initial release
 * **v1.1.0** | 2015-08-18 | Added minified release
 * **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
+* **v1.3.0** | 2015-10-04 | Minor README fixes + NPM and Bower releases
 
 ## License
 
