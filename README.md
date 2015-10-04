@@ -1,57 +1,85 @@
 # Canvas Particle Network
 
-### Overview
+## Overview
 
-In this experiment, I set out to build a sexy, simple, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
+In this experiment, I set out to build a simple, sexy, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
 
-Fork the repo and open `demo.html` to give it a whirl, or check it out on [CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/); the minified version comes in at a cheeky 2KB!
+[See it live on CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/)
 
-### Usage
+Alternatively, fork the repo and open `demo.html` to give it a whirl; the minified version comes in at just under a cheeky 4KB uncompressed, and 1.3KB when gzipped!
 
-For a barebones implementation, simply add the JavaScript file to the end of your `body` and create a ParticleNetwork instance using your canvas ID.
+## Usage
 
-```
+For a barebones implementation, simply add the JavaScript file to the end of your `body` and create a `ParticleNetwork` instance using your canvas ID.
+
+```js
 var particleCanvas = new ParticleNetwork(document.getElementById('particle-canvas'));
 ``` 
 
-Additionally, you can specify a number of options.
+Additionally, a number of options are supported (see below). Simply append any of these options to your arguments on creation.
 
----
-**particleColor**  
-Type: `string`  
-Default: `#fff`  
-Hex color of individual particles   
-
-**bgColor**  
-Type: `string`  
-Default: `#1a252f`  
-Hex background color
-
-**interactive**  
-Type: `boolean`  
-Default: `true`  
-Show an additional node on mousehover and add it to the graph on click
-
---- 
-
-Simply append it to your arguments on creation.
-
-```
+```js
 var options = {
 	particleColor: '#fff',
-	bgColor: '#1a252f',
-	interactive: true
+	background: '#1a252f',
+	interactive: true,
+	speed: 'fast',
+	density: 'medium'
 };
 var particleCanvas = new ParticleNetwork(document.getElementById('particle-canvas'), options);
 ```
 
-### To-do
+## Options
 
-* Add a `density` option
-* Better responsiveness
-* Further optimisations & cross-browser stability improvements
+#### options.particleColor
 
-### Acknowledgements
+Type: `String`  
+Default: `#ffffff`
+
+Color of the particles. Must be a valid hexadecimal code.
+
+#### options.background
+
+Type: `String`  
+Default: `#1a252f`
+
+Specifies a background color or image to the canvas. Must be a valid image URL (e.g. `img/demo-bg.jpg`) or hexadecimal code.
+
+#### options.interactive
+
+Type: `Boolean`  
+Default: `true`
+
+Allow users to click on the canvas to create a new particle. Its velocity will depend on the specified speed (see below).
+
+#### options.speed
+
+Type: `String`  
+Default: `medium`
+
+Velocity of the particles. Must be one of the following:
+
+* `none`
+* `slow`
+* `medium`
+* `fast`
+
+#### options.density
+
+Type: `String`
+Default: `medium`
+
+Density of the particles. Actual amount depends on the canvas size. Must be one of the following:
+
+* `low`
+* `medium`
+* `high`
+
+## Roadmap
+
+* Have a suggestion? Let me know!
+
+## Acknowledgements
 
 This experiment was inspired by the following resources:
 
@@ -59,12 +87,13 @@ This experiment was inspired by the following resources:
 * "Particle Network Animations in JS", Alex Wendland - [http://blog.alexwendland.com/2015/particle-network-js-animations/](http://blog.alexwendland.com/2015/particle-network-js-animations/)
 
 
-### Release History
+## Release History
 
 * **v1.0.0** | 2015-08-17 | Initial release
 * **v1.1.0** | 2015-08-18 | Added minified release
+* **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
 
-### License
+## License
 
 The MIT License (MIT)
 

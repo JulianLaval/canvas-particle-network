@@ -10,7 +10,7 @@ module.exports = function (grunt) {
         format: (grunt.option('o') === undefined) ? 'stylish' : 'html',
         outputFile: (grunt.option('o') === undefined) ? '' : 'report.html'
       },
-      target: ['ParticleNetwork.js', 'Gruntfile.js']
+      target: ['particle-network.js', 'Gruntfile.js']
     },
     uglify: {
       options: {
@@ -20,7 +20,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          'ParticleNetwork.min.js': ['ParticleNetwork.js']
+          'particle-network.min.js': ['particle-network.js']
         }
       }
     }
