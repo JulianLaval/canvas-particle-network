@@ -2,8 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
 [![Bower version](https://img.shields.io/bower/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
-[![NPM dependencies](https://david-dm.org/julianlaval/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
-[![NPM devDependencies](https://david-dm.org/julianlaval/canvas-particle-network/dev-status.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![NPM dependencies](https://david-dm.org/julianlaval/canvas-particle-network.svg)](https://david-dm.org/julianlaval/canvas-particle-network)
+[![NPM devDependencies](https://david-dm.org/julianlaval/canvas-particle-network/dev-status.svg)](https://david-dm.org/julianlaval/canvas-particle-network#info=devDependencies)
 [![NPM total downloads](https://img.shields.io/npm/dt/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
 
 ## Overview
@@ -104,7 +104,7 @@ This experiment was inspired by the following resources:
 * **v1.0.0** | 2015-08-17 | Initial release
 * **v1.1.0** | 2015-08-18 | Added minified release
 * **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
-* **v1.3.0** | 2015-10-04 | Minor README fixes + NPM and Bower releases
+* **v1.2.1** | 2015-10-04 | Minor README fixes
 
 ## License
 
