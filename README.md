@@ -101,11 +101,12 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
-* **v1.0.0** | 2015-08-17 | Initial release
-* **v1.1.0** | 2015-08-18 | Added minified release
-* **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
-* **v1.2.1** | 2015-10-04 | Minor README fixes
+* **v1.3.1** | 2015-10-04 | Bumped version due to NPM versioning conflict
 * **v1.3.0** | 2015-10-04 | Added NPM and Bower releases
+* **v1.2.1** | 2015-10-04 | Minor README fixes
+* **v1.2.0** | 2015-10-04 | Replaced `bgColor` option with `background`, added `speed` option, and is now responsive
+* **v1.1.0** | 2015-08-18 | Added minified release
+* **v1.0.0** | 2015-08-17 | Initial release
 
 ## License
 
