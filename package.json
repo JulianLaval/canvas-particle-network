@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "Simple animated particle network using Canvas and JavaScript",
   "author": "Julian Laval <hello@julianlaval.com>",
-  "main": "ParticleNetwork.js",
+  "main": "particle-network.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/JulianLaval/canvas-particle-network.git"

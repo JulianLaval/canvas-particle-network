@@ -1,0 +1,23 @@
+{
+  "name": "canvas-particle-network",
+  "version": "1.2.1",
+  "homepage": "https://github.com/JulianLaval/canvas-particle-network",
+  "authors": [
+    "Julian Laval <hello@julianlaval.com>"
+  ],
+  "description": "Simple animated particle network using Canvas and JavaScript",
+  "main": "particle-network.js",
+  "moduleType": [],
+  "keywords": [
+    "canvas",
+    "particle",
+    "network",
+    "data visualisation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "Gruntfile.js"
+  ]
+}

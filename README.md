@@ -1,7 +1,7 @@
 # Canvas Particle Network
 
 [![NPM version](https://img.shields.io/npm/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
-[![Bower version](https://img.shields.io/bower/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![Bower version](https://img.shields.io/bower/v/canvas-particle-network.svg)](https://github.com/julianlaval/canvas-particle-network)
 [![NPM dependencies](https://david-dm.org/julianlaval/canvas-particle-network.svg)](https://david-dm.org/julianlaval/canvas-particle-network)
 [![NPM devDependencies](https://david-dm.org/julianlaval/canvas-particle-network/dev-status.svg)](https://david-dm.org/julianlaval/canvas-particle-network#info=devDependencies)
 [![NPM total downloads](https://img.shields.io/npm/dt/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
