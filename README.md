@@ -1,5 +1,11 @@
 # Canvas Particle Network
 
+[![NPM version](https://img.shields.io/npm/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![Bower version](https://img.shields.io/bower/v/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![NPM dependencies](https://david-dm.org/julianlaval/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![NPM devDependencies](https://david-dm.org/julianlaval/canvas-particle-network/dev-status.svg)](https://www.npmjs.com/package/canvas-particle-network)
+[![NPM total downloads](https://img.shields.io/npm/dt/canvas-particle-network.svg)](https://www.npmjs.com/package/canvas-particle-network)
+
 ## Overview
 
 In this experiment, I set out to build a simple, sexy, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
