@@ -133,6 +133,9 @@ ParticleNetwork.prototype.init = function () {
         this.particles.push(this.mouseParticle);
       }
 
+      // Update canvas
+      requestAnimationFrame(this.update.bind(this));
+
     }.bind(this), 500);
 
   }.bind(this));
