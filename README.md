@@ -103,6 +103,7 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
+* **v1.3.3** | 2015-11-29 | Bug fix on window resizing
 * **v1.3.2** | 2015-10-04 | Added files to `bower.json` ignore
 * **v1.3.1** | 2015-10-04 | Bumped version due to NPM versioning conflict
 * **v1.3.0** | 2015-10-04 | Added NPM and Bower releases
