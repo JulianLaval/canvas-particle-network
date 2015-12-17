@@ -1,6 +1,6 @@
 {
   "name": "canvas-particle-network",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "Simple animated particle network using Canvas and JavaScript",
   "author": "Julian Laval <hello@julianlaval.com>",
   "main": "particle-network.js",

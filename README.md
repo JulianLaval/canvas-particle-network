@@ -47,28 +47,28 @@ var particleCanvas = new ParticleNetwork(document.getElementById('particle-canva
 
 #### options.particleColor
 
-Type: `String`  
+Type: `String`
 Default: `#ffffff`
 
 Color of the particles. Must be a valid hexadecimal code.
 
 #### options.background
 
-Type: `String`  
+Type: `String`
 Default: `#1a252f`
 
 Specifies a background color or image to the canvas. Must be a valid image URL (e.g. `img/demo-bg.jpg`) or hexadecimal code.
 
 #### options.interactive
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `true`
 
 Allow users to click on the canvas to create a new particle. Its velocity will depend on the specified speed (see below).
 
 #### options.speed
 
-Type: `String`  
+Type: `String`
 Default: `medium`
 
 Velocity of the particles. Must be one of the following:
@@ -80,7 +80,7 @@ Velocity of the particles. Must be one of the following:
 
 #### options.density
 
-Type: `String`  
+Type: `String`
 Default: `medium`
 
 Density of the particles. Actual amount depends on the canvas size. Must be one of the following:
@@ -103,6 +103,7 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
+* **v1.4.0** | 2015-12-17 | AMD & CommonJS module support
 * **v1.3.3** | 2015-11-29 | Bug fix on window resizing
 * **v1.3.2** | 2015-10-04 | Added files to `bower.json` ignore
 * **v1.3.1** | 2015-10-04 | Bumped version due to NPM versioning conflict
