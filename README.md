@@ -8,7 +8,7 @@
 
 ## Overview
 
-In this experiment, I set out to build a simple, sexy, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular, and customisable, just drop it in any webpage.
+In this experiment, I set out to build a simple, sexy, interactive, and animated particle network using Canvas and JavaScript. Fully plug n' play, modular (via Browserify and WebPack), and customisable, just drop it in any webpage.
 
 [See it live on CodePen](http://codepen.io/JulianLaval/pen/KpLXOO/)
 
@@ -93,6 +93,15 @@ Density of the particles. Actual amount depends on the canvas size. Must be one 
 
 * Have a suggestion? Let me know!
 
+## Contributors
+
+A heartfelt thanks to the following people for making this project possible:
+
+* Julian Laval ([@JulianLaval](https://github.com/JulianLaval)) - lead
+* Alex Schwartzberg ([@aeksco](https://github.com/aeksco)) - committer
+
+If you would like to contribute, please submit a pull request that passes the `grunt eslint` task.
+
 ## Acknowledgements
 
 This experiment was inspired by the following resources:
@@ -103,7 +112,7 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
-* **v1.4.0** | 2015-12-17 | AMD & CommonJS module support
+* **v1.4.0** | 2016-01-14 | AMD & CommonJS module support
 * **v1.3.3** | 2015-11-29 | Bug fix on window resizing
 * **v1.3.2** | 2015-10-04 | Added files to `bower.json` ignore
 * **v1.3.1** | 2015-10-04 | Bumped version due to NPM versioning conflict
