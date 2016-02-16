@@ -260,7 +260,7 @@
     else if (density === 'low') {
       return 20000;
     }
-    return 10000;
+    return !isNaN(parseInt(density, 10)) ? density : 10000;
   }
   // Helper method to set multiple styles
   ParticleNetwork.prototype.setStyles = function (div, styles) {
