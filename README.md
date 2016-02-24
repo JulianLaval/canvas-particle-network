@@ -90,7 +90,7 @@ Density of the particles. Actual amount depends on the canvas size, and is calcu
 * `high` (or `5000`)
 * Any number
 
-Please note that the higher the density, the more computationally intensive each animation step becomes!
+Please note that the higher the density, the more computationally intensive / slower each animation step becomes!
 
 ## Roadmap
 
