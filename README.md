@@ -102,6 +102,7 @@ A heartfelt thanks to the following people for making this project possible:
 
 * Julian Laval ([@JulianLaval](https://github.com/JulianLaval)) - lead
 * Alex Schwartzberg ([@aeksco](https://github.com/aeksco)) - committer
+* Filip Wieland ([@FLamparski](https://github.com/FLamparski)) - committer
 
 If you would like to contribute, please submit a pull request that passes the `grunt eslint` task.
 
