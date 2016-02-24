@@ -116,6 +116,7 @@ This experiment was inspired by the following resources:
 
 ## Release History
 
+* **v1.5.0** | 2016-02-24 | Custom particle density support
 * **v1.4.0** | 2016-01-14 | AMD & CommonJS module support
 * **v1.3.3** | 2015-11-29 | Bug fix on window resizing
 * **v1.3.2** | 2015-10-04 | Added files to `bower.json` ignore
