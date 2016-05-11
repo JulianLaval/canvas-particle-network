@@ -35,6 +35,8 @@ Additionally, a number of options are supported (see below). Simply append any o
 ```js
 var options = {
 	particleColor: '#fff',
+	particleRadius: 1.5,
+	lineWidth: 0.7,
 	background: '#1a252f',
 	interactive: true,
 	speed: 'fast',
@@ -51,6 +53,20 @@ Type: `String`
 Default: `#ffffff`
 
 Color of the particles. Must be a valid hexadecimal code.
+
+#### options.particleRadius
+
+Type: `Number`  
+Default: `1.5`
+
+Radius of the particles.
+
+#### options.lineWidth
+
+Type: `Number`  
+Default: `0.7`
+
+Width of the lines joining particles.
 
 #### options.background
 
@@ -103,6 +119,7 @@ A heartfelt thanks to the following people for making this project possible:
 * Julian Laval ([@JulianLaval](https://github.com/JulianLaval)) - lead
 * Alex Schwartzberg ([@aeksco](https://github.com/aeksco)) - committer
 * Filip Wieland ([@FLamparski](https://github.com/FLamparski)) - committer
+* Liam Fiddler ([@liamfiddler](https://github.com/liamfiddler)) - committer
 
 If you would like to contribute, please submit a pull request that passes the `grunt eslint` task.
 
@@ -150,4 +167,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
