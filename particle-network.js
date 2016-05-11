@@ -30,6 +30,7 @@
     this.canvas = parent.canvas;
     this.ctx = parent.ctx;
     this.particleColor = parent.options.particleColor;
+    this.particleRadius = parent.options.particleRadius;
 
     this.x = Math.random() * this.canvas.width;
     this.y = Math.random() * this.canvas.height;
@@ -53,12 +54,11 @@
     this.y += this.velocity.y;
   };
   Particle.prototype.draw = function () {
-
     // Draw particle
     this.ctx.beginPath();
     this.ctx.fillStyle = this.particleColor;
     this.ctx.globalAlpha = 0.7;
-    this.ctx.arc(this.x, this.y, 1.5, 0, 2 * Math.PI);
+    this.ctx.arc(this.x, this.y, this.particleRadius, 0, 2 * Math.PI);
     this.ctx.fill();
   };
 
@@ -78,7 +78,9 @@
       background: (options.background !== undefined) ? options.background : '#1a252f',
       interactive: (options.interactive !== undefined) ? options.interactive : true,
       velocity: this.setVelocity(options.speed),
-      density: this.setDensity(options.density)
+      density: this.setDensity(options.density),
+      particleRadius: (options.particleRadius !== undefined) ? options.particleRadius : 1.5,
+      lineWidth: (options.lineWidth !== undefined) ? options.lineWidth : 0.7
     };
 
     this.init();
@@ -227,7 +229,7 @@
         this.ctx.beginPath();
         this.ctx.strokeStyle = this.options.particleColor;
         this.ctx.globalAlpha = (120 - distance) / 120;
-        this.ctx.lineWidth = 0.7;
+        this.ctx.lineWidth = this.options.lineWidth;
         this.ctx.moveTo(this.particles[i].x, this.particles[i].y);
         this.ctx.lineTo(this.particles[j].x, this.particles[j].y);
         this.ctx.stroke();
