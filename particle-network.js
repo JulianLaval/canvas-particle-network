@@ -184,8 +184,8 @@
 
       // Mouse event listeners
       this.canvas.addEventListener('mousemove', function (e) {
-        this.mouseParticle.x = e.clientX - this.canvas.offsetLeft;
-        this.mouseParticle.y = e.clientY - this.canvas.offsetTop;
+        this.mouseParticle.x = e.clientX - this.canvas.offsetParent.offsetLeft;
+        this.mouseParticle.y = e.clientY - this.canvas.offsetParent.offsetTop;
       }.bind(this));
 
       this.canvas.addEventListener('mouseup', function (e) {
