@@ -238,7 +238,7 @@
       return 1;
     }
     else if (speed === 'slow') {
-      return 0.33;
+      return 0.2;
     }
     else if (speed === 'none') {
       return 0;
