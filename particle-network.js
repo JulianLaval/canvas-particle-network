@@ -97,23 +97,16 @@
       'z-index': 1
     });
 
-    // Check if valid background hex color
-    if ((/(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i).test(this.options.background)) {
+    // Set background
+    this.setStyles(this.bgDiv, {
+      'background': this.options.background
+    });
+      
+    // If background is image
+    if ((/\.(gif|jpg|jpeg|tiff|png|svg)$/i).test(this.options.background)) {
       this.setStyles(this.bgDiv, {
-        'background': this.options.background
-      });
-    }
-    // Else check if valid image
-    else if ((/\.(gif|jpg|jpeg|tiff|png)$/i).test(this.options.background)) {
-      this.setStyles(this.bgDiv, {
-        'background': 'url("' + this.options.background + '") no-repeat center',
         'background-size': 'cover'
       });
-    }
-    // Else throw error
-    else {
-      console.error('Please specify a valid background image or hexadecimal color');
-      return false;
     }
 
     // Check if valid particleColor
@@ -245,7 +238,7 @@
       return 1;
     }
     else if (speed === 'slow') {
-      return 0.33;
+      return 0.2;
     }
     else if (speed === 'none') {
       return 0;
