@@ -97,8 +97,8 @@
       'z-index': 1
     });
 
-    // Check if valid background hex color
-    if ((/(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i).test(this.options.background)) {
+    // Check if valid background hex color OR transparent
+    if ((/(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i).test(this.options.background) || this.options.background === 'transparent') {
       this.setStyles(this.bgDiv, {
         'background': this.options.background
       });
